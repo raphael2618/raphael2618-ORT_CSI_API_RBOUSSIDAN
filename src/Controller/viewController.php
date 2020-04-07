@@ -21,4 +21,12 @@ class viewController extends AbstractController {
 
      }
 
+
+         /**
+     *  @Route("/", name="proj_viewHome") 
+     * */
+     public function viewHOME() {
+    
+        return new Response('BIENVENUE');
+    }
 }
